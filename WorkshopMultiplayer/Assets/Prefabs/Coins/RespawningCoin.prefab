@@ -62,7 +62,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1047285951027645080, guid: 0af4bc66e2d57704bbbfdbcb2173f164, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4143367605605404860}
+      addedObject: {fileID: 3811937594792990068}
   m_SourcePrefab: {fileID: 100100000, guid: 0af4bc66e2d57704bbbfdbcb2173f164, type: 3}
 --- !u!212 &347787284011286384 stripped
 SpriteRenderer:
@@ -74,7 +74,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1047285951027645080, guid: 0af4bc66e2d57704bbbfdbcb2173f164, type: 3}
   m_PrefabInstance: {fileID: 6216548739180054978}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4143367605605404860
+--- !u!114 &3811937594792990068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
