@@ -55,11 +55,6 @@ public class CoinSpawner : NetworkBehaviour
             y = Random.Range(ySpawnRange.x, ySpawnRange.y);
             Vector2 spawnPoint = new Vector2(x, y);
             ContactFilter2D contactFilter2D = new ContactFilter2D();
-            contactFilter2D.minDepth = float.NegativeInfinity;
-            contactFilter2D.maxDepth = float.PositiveInfinity;
-            Debug.Log("Min : "+contactFilter2D.minDepth);
-            Debug.Log("Max : "+contactFilter2D.maxDepth);
-        
             contactFilter2D.layerMask = layerMask;
             int numColliders = Physics2D.OverlapCircle(spawnPoint, coinRadius, contactFilter2D, coinBuffer);
             if(numColliders == 0)
