@@ -5,7 +5,7 @@ using Unity.Services.Core;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ClientGameManager : MonoBehaviour
+public class ClientGameManager
 {
     private const string MenuSceneName = "Menu";
     public async Task<bool> InitAsync()
