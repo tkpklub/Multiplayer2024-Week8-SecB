@@ -5,8 +5,6 @@ using Unity.Netcode;
 
 public class ConnectionsButtons : MonoBehaviour
 {
-    
-
     public void StartHost()
     {
         NetworkManager.Singleton.StartHost();
